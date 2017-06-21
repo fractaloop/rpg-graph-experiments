@@ -11,7 +11,7 @@ attention to file modification times. Old files are more likely to be broken.
 
 Places are locations within a Roleplay.
 
-[`https://www.roleplaygateway.com/roleplay/the-multiverse/places\?format\=json`](https://www.roleplaygateway.com/roleplay/the-multiverse/places\?format\=json)
+[`https://www.roleplaygateway.com/roleplay/the-multiverse/places?format=json`](https://www.roleplaygateway.com/roleplay/the-multiverse/places\?format\=json)
 
 Returns an array of `Place` objects.
 
@@ -30,6 +30,8 @@ Returns an array of `Place` objects.
 ### Exits
 
 Exits connect locations within a Roleplay.
+
+[`https://www.roleplaygateway.com/roleplay/the-multiverse/exits?format=json`](ttps://www.roleplaygateway.com/roleplay/the-multiverse/exits?format=json)
 
 ```json
 [
@@ -60,11 +62,9 @@ And a parent-child relationship can be expressed:
 - `ascend`
 - `descend`
 
-
-
 ## Local testing
 
 ```bash
-pip install flask
-FLASK_DEBUG=1 FLASK_APP=mini.py flask run
+npm install
+beefy index.js
 ```
