@@ -1,1 +1,4 @@
+pygraphviz
 Flask
+networkx
+matplotlib
