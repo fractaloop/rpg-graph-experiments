@@ -1,0 +1,30 @@
+{
+  "name": "rpg-metrics",
+  "version": "0.1.0",
+  "description": "experiments in graphing RoleplayGateway",
+  "main": "lib/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fractaloop/rpg-metrics.git"
+  },
+  "keywords": [
+    "roleplaygateway",
+    "roleplay",
+    "rpg"
+  ],
+  "author": "Logan Lowell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fractaloop/rpg-metrics/issues"
+  },
+  "homepage": "https://github.com/fractaloop/rpg-metrics",
+  "scripts": {
+    "start": "browserify index.js > data/bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "http-server": "^0.10.0",
+    "ngraph.graph": "0.0.12",
+    "ngraph.pixel": "^2.4.0"
+  }
+}
