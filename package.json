@@ -19,12 +19,13 @@
   },
   "homepage": "https://github.com/fractaloop/rpg-metrics",
   "scripts": {
-    "start": "browserify index.js > data/bundle.js"
+    "start": "beefy index.js --index=index.html"
   },
   "dependencies": {
-    "browserify": "^14.4.0",
-    "http-server": "^0.10.0",
     "ngraph.graph": "0.0.12",
     "ngraph.pixel": "^2.4.0"
+  },
+  "devDependency": {
+    "beefy": "^2.1.8"
   }
 }

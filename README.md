@@ -2,6 +2,11 @@
 
 These are some basic tests for graphing data from [RolePlayGateway.com](https://www.roleplaygateway.com)
 
+## Start
+
+    $ npm install
+    $ npm start
+
 ## Endpoints
 
 All data for this project is derived from public JSON endpoints. The API is completely ephemeral during this period. Pay
